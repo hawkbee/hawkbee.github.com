@@ -6,31 +6,22 @@ a, abbr, acronym, address, code,
 del, dfn, em, img, q, dl, dt, dd, ol, ul, li, tt,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
- margin:0;
- padding:0;
- list-style-type:none;
- text-align:left;
- text-decoration:none;
- border-bottom:none;
- font-weight:normal;
- font-style:normal;
- border:none;
- color:#111111;
- 
-}
-
-p {
-	margin:10px;
-	line-height:2em;
-	letter-spacing:1px;
-	word-spacing:3px;
-	text-indent:2em;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:left;
+	text-decoration:none;
+	border-bottom:none;
+	font-weight:normal;
+	font-style:normal;
+	border:none;
+	color:#111111;
 }
 
 body {
 	background:#BEC3C6;
 	color:#555;
-	font-family:Arial,/*'Microsoft YaHei',*/Verdana,"BitStream vera Sans",Tahoma,Helvetica,Sans-serif;
+	font-family:Verdana,"BitStream vera Sans",Tahoma,Helvetica,Arial,Sans-serif;
 	font-size:18px;
 }
 
@@ -48,4 +39,38 @@ body {
 	box-shadow: 0px 0px 5px 2px #ccc;
 	-moz-box-shadow: 0px 0px 5px 2px #ccc;
 	-webkit-box-shadow: 0px 0px 5px 2px #ccc;
+}
+ol,li {
+	margin-left: 15px;
+	list-style-type: decimal;
+}
+
+p {
+	font-family: Lucida Console,Sans,Serif,Tahoma;
+	letter-spacing: 0.1em;
+	word-spacing: 0.5em;
+	line-height: 1.8em;
+	font-size: 1.01em;
+	margin:10px;
+	text-indent:2em;
+}
+code {
+	font-family: monospace;
+}
+pre {
+	margin: 2em;
+	/* color: #2e3436; */
+	color: gray
+}
+blockquote {
+	border-left: 5px solid #ccc;
+	margin-left: 1.5em;
+	padding-left: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	border-top: 1px dashed #aaa;
+	border-left: 1px dashed #aaa;
+	background-color: #eef;
+	color: #209020;
 }
